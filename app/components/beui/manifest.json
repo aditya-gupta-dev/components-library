@@ -1,0 +1,6235 @@
+{
+  "source": "BeUI MCP list_components + get_component",
+  "componentCount": 107,
+  "components": [
+    {
+      "slug": "alert",
+      "name": "Animated Alert",
+      "description": "Composable feedback with smooth transitions.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/alert",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/alert",
+      "files": [
+        {
+          "path": "components/motion/alert.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/presence-gate.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/alert.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tabs.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "collapsible",
+      "name": "Animated Collapsible",
+      "description": "Expandable content with a smooth reveal.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/collapsible",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/collapsible",
+      "files": [
+        {
+          "path": "components/motion/collapsible.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/collapsible.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "aspect-ratio",
+      "name": "Aspect Ratio",
+      "description": "Responsive media with smooth aspect ratio transitions.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/aspect-ratio",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/aspect-ratio",
+      "files": [
+        {
+          "path": "components/motion/aspect-ratio.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/aspect-ratio.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/tabs.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "arc-picker",
+      "name": "Arc Picker",
+      "description": "Radial text picker with top, bottom, left or right curves, smooth wheel movement and live selection on each scroll step. One persistent bracket frame grows and squeezes around each label. Supports drag momentum, keyboard input, disabled choices, controlled or uncontrolled values, forms and reduced motion.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/arc-picker",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/arc-picker",
+      "files": [
+        {
+          "path": "components/motion/arc-picker.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/arc-picker.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "sortable-stack",
+      "name": "Sortable List",
+      "description": "Composable sortable list with group, item, drag handle, content and undo parts, plus a shared state hook. Spring layout, keyboard reordering, accessible position announcements, and controlled or uncontrolled items.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/sortable-stack",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/sortable-stack",
+      "files": [
+        {
+          "path": "components/motion/sortable-list.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/sortable-stack.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/sortable-stack.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "image-viewer",
+      "name": "Image Viewer",
+      "description": "A composable React image viewer for galleries and attachment previews, with animated lightbox variants, custom thumbnails and controls, swipe and keyboard navigation, zoom and pan, accessible focus management, and controlled or uncontrolled selection.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/image-viewer",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/image-viewer",
+      "files": [
+        {
+          "path": "components/motion/morphing-lightbox.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-modal-scope.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/presence-gate.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "date-range-picker",
+      "name": "Date Range Picker",
+      "description": "Composable date range picker with root, trigger, popover content, calendar, header, grid, summary, footer, clear and preset parts, plus a shared state hook. Compact inline and dropdown compositions, direct month and year selection, and full keyboard navigation.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/date-range-picker",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/date-range-picker",
+      "files": [
+        {
+          "path": "components/motion/date-range-picker.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/date-range-picker/context.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/date-range-picker/date-utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/date-range-picker/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/date-range-picker/use-date-range-picker.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/date-range-picker.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "card",
+      "name": "Card",
+      "description": "Composable card with header, title, description, action, content and footer parts. Outlined or muted surfaces, standard or compact spacing, and an opt-in selectable state with press feedback that composes with Checkbox, Radio and Button.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/card",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/card",
+      "files": [
+        {
+          "path": "components/motion/card.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/card.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/switch.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "color-picker",
+      "name": "Color Picker",
+      "description": "Composable color picker whose trigger chip morphs into the saturation and brightness area. A loupe lifts off each thumb while you drag. Includes hue and opacity sliders, hex, RGB and HSL fields, an eye dropper, presets, full keyboard control, and a controlled or uncontrolled value.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/color-picker",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/color-picker",
+      "files": [
+        {
+          "path": "components/motion/color-picker.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/presence-gate.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/color-picker.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "color-selector",
+      "name": "Animated Color Selector",
+      "description": "Composable color swatches with a spring-gliding selection ring, press feedback, native radio keyboard navigation, and controlled or uncontrolled state.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/color-selector",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/color-selector",
+      "files": [
+        {
+          "path": "components/motion/color-selector.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/color-selector.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "breadcrumb",
+      "name": "Animated Breadcrumb",
+      "description": "Composable breadcrumb navigation with soft path transitions, a hoverable overflow dropdown for long trails, custom separators, and router-link support.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/breadcrumb",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/breadcrumb",
+      "files": [
+        {
+          "path": "components/motion/breadcrumb.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/breadcrumb.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "tilt-card",
+      "name": "Tilt Card",
+      "description": "3D perspective tilt on hover with cursor-tracked glare.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/tilt-card",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/tilt-card",
+      "files": [
+        {
+          "path": "components/motion/tilt-card.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/tilt-card.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "button",
+      "name": "Button",
+      "description": "Spring-pressed Button plus StatefulButton, MagneticButton, and MetallicButton variants.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/button",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/button",
+      "files": [
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "expanding-arrow-button",
+      "name": "Animated CTA Buttons",
+      "description": "Expressive call-to-action buttons with expanding, hold, and slide interactions.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/expanding-arrow-button",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/expanding-arrow-button",
+      "files": [
+        {
+          "path": "components/motion/expanding-arrow-button.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/hold-action-button.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/slide-action-button.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/expanding-arrow-button.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "expandable-control",
+      "name": "Expandable Control",
+      "description": "Click-to-expand button and chip controls that reveal a label or trailing action through spring layout continuity.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/expandable-control",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/expandable-control",
+      "files": [
+        {
+          "path": "components/motion/expandable-control.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/expandable-control.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "adaptive-stepper",
+      "name": "Adaptive Stepper",
+      "description": "Composable numeric stepper whose fixed footprint adapts at its minimum and maximum while the value rolls between steps.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/adaptive-stepper",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/adaptive-stepper",
+      "files": [
+        {
+          "path": "components/motion/adaptive-stepper.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/liquid.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/adaptive-stepper.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "marquee",
+      "name": "Marquee",
+      "description": "Infinite horizontal or vertical scroll with pause-on-hover.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/marquee",
+      "dependencies": [
+        "clsx",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/marquee",
+      "files": [
+        {
+          "path": "components/motion/marquee.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/marquee.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "tabs",
+      "name": "Tabs",
+      "description": "Pill, segment or underline tabs with a spring layoutId indicator and optional icons.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/tabs",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/tabs",
+      "files": [
+        {
+          "path": "components/motion/tabs.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/tabs.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "switch",
+      "name": "Switch",
+      "description": "Toggle with a spring-driven thumb and press feedback.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/switch",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/switch",
+      "files": [
+        {
+          "path": "components/motion/switch.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/switch.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "input",
+      "name": "Input",
+      "description": "Text input with label, left/right icons, optional stable error row, error shake and success check draw.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/input",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/input",
+      "files": [
+        {
+          "path": "components/motion/input.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/input.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "select",
+      "name": "Select",
+      "description": "Composable select primitives whose panel unfolds out of the trigger on one spring and pulls away into its own pill, plus a Morph variant where the trigger grows into the panel via shared layout.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/select",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/select",
+      "files": [
+        {
+          "path": "components/motion/select.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/select.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "combobox",
+      "name": "Combobox",
+      "description": "Searchable combobox with a morphing portal, grouped filtering, keyboard navigation, and controlled or uncontrolled state.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/combobox",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/combobox",
+      "files": [
+        {
+          "path": "components/motion/combobox.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/combobox/content.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/combobox/context.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/combobox/list.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/combobox/trigger.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/combobox/use-active-option.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/combobox.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "multi-select",
+      "name": "Multi Select",
+      "description": "Composable multi-select primitives with searchable options, removable animated tokens, and a morphing collision-aware panel.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/multi-select",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/multi-select",
+      "files": [
+        {
+          "path": "components/motion/multi-select/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/multi-select/context.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/multi-select/trigger.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/multi-select/content.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/multi-select/list.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/combobox/use-active-option.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/multi-select.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "checkbox",
+      "name": "Checkbox",
+      "description": "Form choice control with a draw-on checkmark, spring press feedback and indeterminate state support.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/checkbox",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/checkbox",
+      "files": [
+        {
+          "path": "components/motion/checkbox.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/checkbox.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "radio",
+      "name": "Radio Group",
+      "description": "Single-select choice control with a gliding layoutId indicator dot and spring press feedback.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/radio",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/radio",
+      "files": [
+        {
+          "path": "components/motion/radio.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/radio.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "bottom-sheet",
+      "name": "Bottom Sheet",
+      "description": "Vaul-inspired draggable bottom sheet with snap points, inertia and glass surface.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/bottom-sheet",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/bottom-sheet",
+      "files": [
+        {
+          "path": "components/motion/bottom-sheet.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/presence-gate.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/bottom-sheet.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "pull-to-refresh",
+      "name": "Pull to Refresh",
+      "description": "Native-feeling pull-to-refresh container with drag resistance, threshold feedback and async refresh handling.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/pull-to-refresh",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/pull-to-refresh",
+      "files": [
+        {
+          "path": "components/motion/pull-to-refresh.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/pull-to-refresh.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "shared-layout-bg",
+      "name": "Shared Layout Background",
+      "description": "A pill that glides between hovered items via motion's shared layout, with blur enter/exit.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/shared-layout-bg",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/shared-layout-bg",
+      "files": [
+        {
+          "path": "components/motion/shared-layout-bg.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/shared-layout-bg.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "bounce-sidebar",
+      "name": "Bounce Sidebar",
+      "description": "A vertical sidebar whose active dot jumps between destinations on a curved, spring-loaded path.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/bounce-sidebar",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/bounce-sidebar",
+      "files": [
+        {
+          "path": "components/motion/bounce-sidebar.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/bounce-sidebar.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "animated-sidebar",
+      "name": "Animated Sidebar",
+      "description": "A composable application sidebar with morphing nested navigation that folds into an animated icon rail on desktop and becomes a focus-managed sheet on mobile.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/animated-sidebar",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/animated-sidebar",
+      "files": [
+        {
+          "path": "components/motion/animated-sidebar.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/shared-layout-bg.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/animated-sidebar.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "file-tree",
+      "name": "File Tree",
+      "description": "Composable file and folder primitives with springing branches, a gliding selection, and complete keyboard navigation.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/file-tree",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/file-tree",
+      "files": [
+        {
+          "path": "components/motion/file-tree.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/shared-layout-bg.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/file-tree.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "preview-rail",
+      "name": "Preview Rail",
+      "description": "Codex app-inspired navigation rail with compact ticks that form a hover pyramid and reveal a floating destination preview.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/preview-rail",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/preview-rail",
+      "files": [
+        {
+          "path": "components/motion/preview-rail.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/preview-rail.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "dock",
+      "name": "Dock",
+      "description": "macOS-style dock with grouped actions and a gliding active pill.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/dock",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/dock",
+      "files": [
+        {
+          "path": "components/motion/dock.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/dock.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/app/icons.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "tooltip",
+      "name": "Tooltip",
+      "description": "Composable hover, focus and tap tooltip with a subtle scale and fade, collision-aware side and alignment, an optional arrow, a pointer corridor onto hoverable content, one label at a time, keyboard-only focus reveal and optional cursor tracking.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/tooltip",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/tooltip",
+      "files": [
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/tooltip.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "context-menu",
+      "name": "Animated Context Menu",
+      "description": "Composable context-menu primitives with a pointer-origin clip morph, a gliding active row, checkbox and radio choices, keyboard navigation, typeahead, and long-press support.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/context-menu",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/context-menu",
+      "files": [
+        {
+          "path": "components/motion/context-menu.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/context-menu.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "popover",
+      "name": "Popover",
+      "description": "Gooey popover whose panel oozes out of the trigger through an SVG goo filter with a liquid neck that stretches and pinches, then crisp content fades in on top. The Morph variant reveals its full-size panel from the corner nearest the trigger on one synchronized spring clip. Click or hover trigger, controlled or uncontrolled.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/popover",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/popover",
+      "files": [
+        {
+          "path": "components/motion/popover.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/popover.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "morphing-modal",
+      "name": "Morphing Modal",
+      "description": "Family-app-style modal. A single panel that morphs its height as you navigate between inner views, with blur cross-fade on content.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/morphing-modal",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/morphing-modal",
+      "files": [
+        {
+          "path": "components/motion/morphing-modal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/presence-gate.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/morphing-modal.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "center-morph-modal",
+      "name": "Center Morph Modal",
+      "description": "A composable modal whose full-size surface unfolds from its exact center toward every edge, then folds back the same way with an inset close control.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/center-morph-modal",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/center-morph-modal",
+      "files": [
+        {
+          "path": "components/motion/center-morph-modal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/presence-gate.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/center-morph-modal.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "text-animation",
+      "name": "Text Animation",
+      "description": "Animated text primitives for spring reveals, chromatic sweeps, shimmer loading states, letter-cascade swaps and character scrambles.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/text-animation",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/text-animation",
+      "files": [
+        {
+          "path": "components/motion/text-reveal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/chromatic-text-reveal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/text-shimmer.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/text-cascade.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/text-scramble.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/text-shimmer.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/text-animation.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "number",
+      "name": "Number Animation",
+      "description": "Animated number primitives for count-up values, rolling tickers, and fixed-slot digit swaps.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/number",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/number",
+      "files": [
+        {
+          "path": "components/motion/animated-number.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/digit-swap.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/number.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "animated-badge",
+      "name": "Animated Badge",
+      "description": "Status badge with animated state icons, pulse feedback and compact size variants.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/animated-badge",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/animated-badge",
+      "files": [
+        {
+          "path": "components/motion/animated-badge.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/animated-badge.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "action-swap",
+      "name": "Action Swap",
+      "description": "CTA button and slot primitives for swapping text and icons with blur motion.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/action-swap",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/action-swap",
+      "files": [
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/action-swap.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "animated-toast-stack",
+      "name": "Animated Toast Stack",
+      "description": "Stacked toasts with status morphs, swipe dismissal, actions and layout-aware motion.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/animated-toast-stack",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/animated-toast-stack",
+      "files": [
+        {
+          "path": "components/motion/animated-toast-stack.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/animated-toast-stack.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "theme-toggle",
+      "name": "Theme Toggle",
+      "description": "Theme toggle button that repaints the whole page through the View Transition API — a rectangle or circle clip-path reveal, or slats that open across the screen like a shutter.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/theme-toggle",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next-themes",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/theme-toggle",
+      "files": [
+        {
+          "path": "components/motion/theme-toggle.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/theme-toggle.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "bouncy-accordion",
+      "name": "Bouncy Accordion",
+      "description": "Single-open accordion with weighted spring layout, icon rows and reduced-motion-safe content reveals.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/bouncy-accordion",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/bouncy-accordion",
+      "files": [
+        {
+          "path": "components/motion/bouncy-accordion.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/bouncy-accordion.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "drawer",
+      "name": "Drawer",
+      "description": "Side panel that slides in from the left or right with a spring, backdrop blur, body scroll lock and esc-to-close.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/drawer",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/drawer",
+      "files": [
+        {
+          "path": "components/motion/drawer.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/presence-gate.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/drawer.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "scroll-animation",
+      "name": "Scroll Animation",
+      "description": "Scroll-driven motion: a Lenis smooth-scroll provider and a reading-progress indicator that reads from it.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/scroll-animation",
+      "dependencies": [
+        "clsx",
+        "lenis",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/scroll-animation",
+      "files": [
+        {
+          "path": "components/motion/smooth-scroll.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/scroll-progress.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/parallax.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/scroll-to.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/scroll-reveal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "range-slider",
+      "name": "Range Slider",
+      "description": "Slider with tick dots and a vertical-bar thumb that bounces as it lands on each step. Drag or keyboard, reduced-motion safe.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/range-slider",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/range-slider",
+      "files": [
+        {
+          "path": "components/motion/range-slider.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-slider.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/range-slider.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "wheel-picker",
+      "name": "Wheel Picker",
+      "description": "iOS-style picker wheel: a 3D drum on native momentum scroll that snaps to the nearest notch, with wheel, drag and keyboard control. Composes side by side for date and time pickers, reduced-motion safe.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/wheel-picker",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/wheel-picker",
+      "files": [
+        {
+          "path": "components/motion/wheel-picker.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/tick-sound.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/wheel-picker.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/switch.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "table",
+      "name": "Table",
+      "description": "Virtualized data table that stays smooth at 10k+ rows, with sortable headers, row selection, column resize and reorder, and a sticky header. Minimal, reduced-motion-safe motion.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/table",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/table",
+      "files": [
+        {
+          "path": "components/motion/table/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/table/editable-cell.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/row-handle.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/skeleton-rows.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/table-header.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/use-column-reorder.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/use-column-resize.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/use-column-sort.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/use-row-selection.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/table/table-menu.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/table.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "shader-background",
+      "name": "Shader Background",
+      "description": "Canvas shader backgrounds (mesh gradient, grain, warp, waves, voronoi, dot orbit and more) with a single typed variant prop. Reduced-motion freezes animated variants.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/shader-background",
+      "dependencies": [
+        "@paper-design/shaders-react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/shader-background",
+      "files": [
+        {
+          "path": "components/motion/shader-background.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/shader-background.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/tabs.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "cylinder-carousel",
+      "name": "Cylinder Carousel",
+      "description": "A carousel whose items line the inside of a cylinder, receding into the center and growing toward the edges. Drag, scroll or arrow-key to roll it, with a springy glide and snap. Reduced-motion drops the glide.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/cylinder-carousel",
+      "dependencies": [
+        "@paper-design/shaders-react",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/cylinder-carousel",
+      "files": [
+        {
+          "path": "components/motion/cylinder-carousel.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/cylinder-carousel.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/shader-background.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tabs.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "loader",
+      "name": "Loader",
+      "description": "Loading indicator with seventeen variants: spinner, dots, bars, dot-matrix, dither, morph, comet, scramble, metaballs, newton, helix, percent, and five terminal-style ascii spinners. Scales from one size prop, uses currentColor, and reduced-motion swaps every transform for a calm opacity pulse.",
+      "category": "motion",
+      "page_url": "https://beui.dev/components/motion/loader",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/loader",
+      "files": [
+        {
+          "path": "components/motion/loader.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/motion/loader.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "treemap",
+      "name": "Treemap",
+      "description": "Proportional tiles that morph with your data, with value and share tooltips.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/treemap",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/treemap",
+      "files": [
+        {
+          "path": "components/charts/treemap.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/treemap/context.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/treemap/legend.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/treemap/model.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/treemap/plot.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/treemap/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-row-cursor.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/treemap/tile.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/treemap.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/tabs.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "candlestick-chart",
+      "name": "Candlestick Chart",
+      "description": "Live OHLC candles with volume, a last-price line, and a crosshair readout.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/candlestick-chart",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/candlestick-chart",
+      "files": [
+        {
+          "path": "components/charts/candlestick-chart.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/candlestick-chart/context.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/candlestick-chart/legend.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/candlestick-chart/plot.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/candlestick-chart.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "donut-chart",
+      "name": "Donut Chart",
+      "description": "Rounded share segments with a linked center readout and legend.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/donut-chart",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/donut-chart",
+      "files": [
+        {
+          "path": "components/charts/donut-chart.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/donut-chart/center.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/donut-chart/context.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/donut-chart/legend.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/donut-chart/model.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/donut-chart/plot.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/digit-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/donut-chart.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "volume-profile",
+      "name": "Volume Profile",
+      "description": "Animated volume by price, with point of control and value area highlights.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/volume-profile",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/volume-profile",
+      "files": [
+        {
+          "path": "components/charts/volume-profile.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/volume-profile/context.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/volume-profile/model.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/volume-profile/plot.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/volume-profile/summary.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/volume-profile/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/volume-profile.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/tabs.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "status-bar",
+      "name": "Status Bar",
+      "description": "Animated status history with rounded bars and period tooltips.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/status-bar",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/status-bar",
+      "files": [
+        {
+          "path": "components/charts/status-bar.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/status-bar/context.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/status-bar/legend.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/status-bar/plot.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/status-bar/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/status-bar.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "composition-chart",
+      "name": "Composition Chart",
+      "description": "Stacked bar and area shares with period tooltips and a compact interactive legend.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/composition-chart",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/composition-chart",
+      "files": [
+        {
+          "path": "components/charts/composition-chart.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/composition-chart/context.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/composition-chart/legend.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/composition-chart/model.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/composition-chart/plot.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/composition-chart/tooltip-content.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/composition-chart.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "funnel-chart",
+      "name": "Funnel Chart",
+      "description": "Vertical and horizontal funnels with curved stages and animated number tooltips.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/funnel-chart",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/funnel-chart",
+      "files": [
+        {
+          "path": "components/charts/funnel-chart.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/funnel-chart/model.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/funnel-chart.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "liquidity-heatmap",
+      "name": "Liquidity Heatmap",
+      "description": "Animated liquidity bands across price and time, with a price trace and depth tooltips.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/liquidity-heatmap",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/liquidity-heatmap",
+      "files": [
+        {
+          "path": "components/charts/liquidity-heatmap.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/liquidity-heatmap/model.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/liquidity-heatmap.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "bump-chart",
+      "name": "Bump Chart",
+      "description": "Animated rankings with curved paths, interactive rank dots, and tooltips.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/bump-chart",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/bump-chart",
+      "files": [
+        {
+          "path": "components/charts/bump-chart.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/bump-chart/context.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/bump-chart/legend.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/bump-chart/model.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/bump-chart/plot.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/bump-chart/point.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/bump-chart/series.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/bump-chart/use-geometry.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/bump-chart.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "order-book",
+      "name": "Order Book",
+      "description": "Animated order book with bid and ask depth, spread, and volume balance.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/order-book",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/order-book",
+      "files": [
+        {
+          "path": "components/charts/order-book.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/order-book/depth-row.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/order-book/model.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/order-book.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "heat-calendar",
+      "name": "Heat Calendar",
+      "description": "Composable activity calendar with Grid, Legend, and Tooltip parts, controlled range selection, and UTC calendar dates. Supply weekly intensities to visualize activity and total a selected span.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/heat-calendar",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/heat-calendar",
+      "files": [
+        {
+          "path": "components/charts/heat-calendar.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/heat-calendar/context.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/heat-calendar/grid.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/heat-calendar/legend.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/heat-calendar/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/heat-calendar/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/heat-calendar/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/heat-calendar.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "returns-calendar",
+      "name": "Returns Calendar",
+      "description": "Composable monthly returns calendar with Grid and Tooltip parts, controlled month or year selections, and compounded totals. Supply your own years and monthly percentages.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/returns-calendar",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/returns-calendar",
+      "files": [
+        {
+          "path": "components/charts/returns-calendar.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/returns-calendar/context.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/returns-calendar/grid.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/returns-calendar/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/returns-calendar/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/returns-calendar/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/returns-calendar.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "price-target-fan",
+      "name": "Price Target Fan",
+      "description": "Composable price target chart with Header, Plot, SVG, Axes, History, Targets, Now, Cursor, and Tooltip parts. Supply dated price history and targets; scrub with a pointer or keyboard and customize the active readout.",
+      "category": "charts",
+      "page_url": "https://beui.dev/charts/price-target-fan",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/price-target-fan",
+      "files": [
+        {
+          "path": "components/charts/price-target-fan.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/charts/price-target-fan/context.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/price-target-fan/header.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/price-target-fan/plot.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/price-target-fan/series.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/price-target-fan/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/price-target-fan/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/charts/price-target-fan/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/charts/price-target-fan.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "voice-orb",
+      "name": "Voice Orb",
+      "description": "Breathing liquid voice visualization with flowing highlights, custom pigments and a soft, voice-reactive silhouette. Accepts a normalized level, MotionValue or caller-owned audio analyser, pauses offscreen and supports reduced motion.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/voice-orb",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/voice-orb",
+      "files": [
+        {
+          "path": "components/agents/voice-orb.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/voice-orb/renderer.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/voice-orb.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "message-bubble",
+      "name": "Message Bubble",
+      "description": "A focused conversational surface with visual tones, independent alignment, grouped messages, expandable content, and interactive link or button support.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/message-bubble",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/message-bubble",
+      "files": [
+        {
+          "path": "components/agents/message-bubble.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/message-context.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/message-bubble.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/previews/agents/chat-preview.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/message.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/message-scroller.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/prompt-input.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/streaming-response.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/preview-rail.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/citations.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "message",
+      "name": "Message",
+      "description": "Composable conversation primitives for message rows, grouped bubbles, avatars, metadata, live markers, and a mount-only trailing-edge pop-up for newly sent rows.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/message",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/message",
+      "files": [
+        {
+          "path": "components/agents/message.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/message-bubble.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/message-context.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/message-scroller.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/preview-rail.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/message.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/previews/agents/chat-preview.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/prompt-input.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/streaming-response.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/citations.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "message-scroller",
+      "name": "Message Scroller",
+      "description": "A reader-aware conversation viewport that follows streamed output at the live edge and releases control when the reader moves away.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/message-scroller",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/message-scroller",
+      "files": [
+        {
+          "path": "components/agents/message-scroller.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/preview-rail.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/message-scroller.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/previews/agents/chat-preview.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/message.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/message-bubble.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/prompt-input.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/streaming-response.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/message-context.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/citations.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "prompt-input",
+      "name": "Prompt Input",
+      "description": "An auto-growing agent composer with prompt actions, model selection, keyboard submission, and animated send and stop states.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/prompt-input",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/prompt-input",
+      "files": [
+        {
+          "path": "components/agents/prompt-input.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/prompt-input.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "lib/hooks/use-favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "todo-list",
+      "name": "Todo List",
+      "description": "A collapsible agent task plan with morphing status marks, a completion count, compact metadata, and smooth list updates.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/todo-list",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/todo-list",
+      "files": [
+        {
+          "path": "components/agents/todo-list.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/todo-list.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "code-block",
+      "name": "Code Block",
+      "description": "A syntax-highlighted code surface with stable streaming updates, line numbers, focused lines, smooth following, and copy feedback.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/code-block",
+      "dependencies": [
+        "ai",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/code-block",
+      "files": [
+        {
+          "path": "components/agents/code-block.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/code-block.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "approval-card",
+      "name": "Approval Card",
+      "description": "A human-in-the-loop decision surface for approvals, single or multiple-choice questions, custom responses, and multi-step review flows.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/approval-card",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/approval-card",
+      "files": [
+        {
+          "path": "components/agents/approval-card/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/approval-card/types.ts",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/input.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/radio.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "file-diff",
+      "name": "File Diff",
+      "description": "A syntax-highlighted file change disclosure with progressive rows, line numbers, live change counts, smooth following, and completion collapse.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/file-diff",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/file-diff",
+      "files": [
+        {
+          "path": "components/agents/file-diff.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/file-diff.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/previews/agents/use-tool-result-demo.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/tool-result.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "tool-result",
+      "name": "Tool Result",
+      "description": "A lightweight execution disclosure for syntax-highlighted terminal output and request responses that collapses into a compact completed state.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/tool-result",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/tool-result",
+      "files": [
+        {
+          "path": "components/agents/tool-result.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "streaming-response",
+      "name": "Streaming Response",
+      "description": "A stable response surface with completion actions, rendered content, and an expandable source summary.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/streaming-response",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/streaming-response",
+      "files": [
+        {
+          "path": "components/agents/streaming-response.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/citations.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/streaming-response.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "image-generation",
+      "name": "Image Generation",
+      "description": "A stable generated-image surface that moves from queued work through progressive refinement to a completed result without layout shift.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/image-generation",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/image-generation",
+      "files": [
+        {
+          "path": "components/agents/image-generation.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/image-generation.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "tool-approval",
+      "name": "Tool Approval",
+      "description": "A human-in-the-loop permission card for reviewing tool details, allowing once, remembering access, or denying execution.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/tool-approval",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/tool-approval",
+      "files": [
+        {
+          "path": "components/agents/tool-approval.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/tool-approval.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "citations",
+      "name": "Citations",
+      "description": "Inline citation markers paired with a collapsible, progressively rendered reference collection for grounded agent responses.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/citations",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/citations",
+      "files": [
+        {
+          "path": "components/agents/citations.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/citations.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "agent-activity",
+      "name": "Agent Activity",
+      "description": "One adaptive activity stream for reasoning, searches, tool calls, structured execution traces, or a chronological mix.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/agent-activity",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/agent-activity",
+      "files": [
+        {
+          "path": "components/agents/agent-activity/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-activity/activity-row.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-activity/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/loading-states/thinking-shimmer.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/text-shimmer.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/text-shimmer.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/agent-activity.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "loading-states",
+      "name": "Agent Loading States",
+      "description": "Three thoughtful loading states for AI interfaces: shimmering status text, live agent progress, and cycling reasoning phrases.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/loading-states",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/loading-states",
+      "files": [
+        {
+          "path": "components/agents/loading-states/index.ts",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/loading-states/thinking-shimmer.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/loading-states/agent-progress.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/loading-states/reasoning-text.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/text-shimmer.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/loader.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/text-scramble.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/text-shimmer.ts",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "ai-sidebar",
+      "name": "AI Sidebar",
+      "description": "A collapsible AI workspace sidebar for folders, projects, files, and bookmarks with keyboard navigation, optimistic moves, inline rename, and overflow-aware labels.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/ai-sidebar",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/ai-sidebar",
+      "files": [
+        {
+          "path": "components/agents/ai-sidebar.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-touch-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/ai-sidebar.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/animated-sidebar.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/shared-layout-bg.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "chat-app",
+      "name": "Chat App",
+      "description": "A complete agent conversation workspace composing navigation, messages, streaming, planning, approvals, tools, code, diffs, generated media, sources, and prompt input.",
+      "category": "agents",
+      "page_url": "https://beui.dev/components/agents/chat-app",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "shiki",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/chat-app",
+      "files": [
+        {
+          "path": "components/agents/chat-app.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/agent-activity/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/ai-sidebar.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/approval-card/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/code-block.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/file-diff.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/image-generation.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/loading-states/thinking-shimmer.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/message.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/message-bubble.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/message-scroller.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/prompt-input.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/streaming-response.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/todo-list.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/tool-approval.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/agents/tool-result.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/animated-sidebar.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-activity/activity-row.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-activity/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-disclosure.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-touch-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/approval-card/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap-roll.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/input.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/radio.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/agent-code.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/text-shimmer.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/message-context.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/preview-rail.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/citations.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/shared-layout-bg.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/text-shimmer.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/favicon.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/agents/chat-app.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/previews/agents/chat-app-usage.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/loading-states/index.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/loading-states/agent-progress.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/agents/loading-states/reasoning-text.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/loader.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/text-scramble.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "infinite-masonry",
+      "name": "Infinite Masonry",
+      "description": "Responsive virtualized masonry that measures variable-height cards and loads more data as the user nears the end.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/infinite-masonry",
+      "dependencies": [
+        "@tanstack/react-virtual",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "next",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/infinite-masonry",
+      "files": [
+        {
+          "path": "components/motion/infinite-masonry.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/infinite-masonry.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "notification-stack",
+      "name": "Notification Stack",
+      "description": "Compact notification cards that spring from a stacked summary into a readable list on hover, focus or tap.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/notification-stack",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/notification-stack",
+      "files": [
+        {
+          "path": "components/motion/notification-stack.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/notification-stack.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "project-folder",
+      "name": "Project Folder",
+      "description": "An interactive project folder that opens its file fan on hover or focus, expands into a focus-managed overlay, then retraces the complete path when closed.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/project-folder",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/project-folder",
+      "files": [
+        {
+          "path": "components/motion/project-folder.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/project-folder.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "card-folder",
+      "name": "Card Folder",
+      "description": "A landscape card tucked into a stitched purse pocket that lifts forward as the purse compresses into its bottom seam, with controlled open and card-detail visibility plus a separate overflow action.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/card-folder",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/card-folder",
+      "files": [
+        {
+          "path": "components/motion/card-folder.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/digit-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/card-folder.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "knockout-bracket",
+      "name": "Fixtures",
+      "description": "Animated tournament fixtures in two styles: a knockout bracket that pages through rounds, and a wheel that wraps the same tree around the champion. Both read the same array of rounds, so one dataset draws either.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/knockout-bracket",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/knockout-bracket",
+      "files": [
+        {
+          "path": "components/motion/knockout-bracket.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/knockout-wheel.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/knockout-bracket.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "availability-scheduler",
+      "name": "Availability Scheduler",
+      "description": "Weekly availability editor where each day springs between available and unavailable, time ranges add and remove with blur-slide motion, times pick from a scrollable dropdown, and a copy menu clones hours to other days.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/availability-scheduler",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/availability-scheduler",
+      "files": [
+        {
+          "path": "components/motion/availability-scheduler/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/availability-scheduler/day-row.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/availability-scheduler/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/availability-scheduler/copy-menu.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/availability-scheduler/icon-button.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/availability-scheduler/time-select.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/switch.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-morph.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/select.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/popover-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/availability-scheduler.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "swap",
+      "name": "Multi-chain Swap",
+      "description": "Cross-chain swap widget with chain + token selectors, morphing views, animated flip and quote.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/swap",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/swap",
+      "files": [
+        {
+          "path": "components/motion/swap.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/swap/constants.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/swap/controls.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/swap/data.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/swap/field.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/swap/quote-row.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/swap/token-picker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/swap/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/swap/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/swap/token-badges.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/swap.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "dynamic-island",
+      "name": "Dynamic Island",
+      "description": "iOS-style island pill that morphs between live activity views with bouncy shell resize and blur crossfades.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/dynamic-island",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/dynamic-island",
+      "files": [
+        {
+          "path": "components/motion/dynamic-island.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/dynamic-island.preview.tsx",
+          "type": "preview"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        }
+      ]
+    },
+    {
+      "slug": "command-palette",
+      "name": "Command Palette",
+      "description": "⌘K palette with fuzzy filter, spring-animated active row and glass surface.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/command-palette",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/command-palette",
+      "files": [
+        {
+          "path": "components/motion/command-palette.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/command-search.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-on-open.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-row-cursor.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-touch-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/presence-gate.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/command-palette.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "morphing-search",
+      "name": "Morphing Search",
+      "description": "Search field or compact icon that morphs into a glass results surface, whether opened by click or keyboard shortcut.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/morphing-search",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/morphing-search",
+      "files": [
+        {
+          "path": "components/motion/morphing-search.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-on-open.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-row-cursor.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/morphing-search.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "expandable-action-bar",
+      "name": "Expandable Action Bar",
+      "description": "Compact icon actions that expand into labeled controls on hover or focus with shared layout motion.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/expandable-action-bar",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/expandable-action-bar",
+      "files": [
+        {
+          "path": "components/motion/expandable-action-bar.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/expandable-action-bar.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "overflow-actions",
+      "name": "Overflow Actions",
+      "description": "Connected pill rail for primary actions that springs open to reveal extra controls.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/overflow-actions",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/overflow-actions",
+      "files": [
+        {
+          "path": "components/motion/overflow-actions.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/overflow-actions.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "expandable-tabs",
+      "name": "Expandable Tabs",
+      "description": "Icon tab bar where the active tab expands to a labelled pill, with a panel above that morphs height and slides content direction-aware on switch.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/expandable-tabs",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/expandable-tabs",
+      "files": [
+        {
+          "path": "components/motion/expandable-tabs.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/expandable-tabs.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "morphing-tabs",
+      "name": "Morphing Tabs",
+      "description": "Reorderable tabs whose selected item grows into a white content surface, with the active shape gliding as tabs move and a shared morph between rooms.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/morphing-tabs",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/morphing-tabs",
+      "files": [
+        {
+          "path": "components/motion/morphing-tabs.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/morphing-tabs.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "swipeable-list",
+      "name": "Swipeable List",
+      "description": "Mobile-style list rows that swipe left or right to reveal contextual action buttons.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/swipeable-list",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/swipeable-list",
+      "files": [
+        {
+          "path": "components/motion/swipeable-list.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/swipeable-list.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "file-upload",
+      "name": "File Upload",
+      "description": "Two file upload patterns: an attachment workspace for mixed files, links, audio and media, plus a progress queue with retry and removal.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/file-upload",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/file-upload",
+      "files": [
+        {
+          "path": "components/motion/file-upload.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/attachment-upload.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/presence-gate.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/file-upload.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "prediction-market",
+      "name": "Prediction Market",
+      "description": "Animated market listing cards with outcome CTAs, probabilities and bookmarks, plus a trade ticket with buy/sell modes and rolling amount entry.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/prediction-market",
+      "dependencies": [
+        "@floating-ui/dom",
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/prediction-market",
+      "files": [
+        {
+          "path": "components/motion/prediction-market.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/prediction-market-card.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/number-ticker.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tabs.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/grace.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/positioner.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip/use-position.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/tooltip-surface.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-tap-gesture.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/touch.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/prediction-market.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "wallet-card",
+      "name": "Wallet Card",
+      "description": "Wallet overview card with an account switcher and search that morph open from their triggers, a cascading balance with a live change pill and privacy toggle, copy-address, and Send / Deposit / Swap / Buy actions.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/wallet-card",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/wallet-card",
+      "files": [
+        {
+          "path": "components/motion/wallet-card/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/wallet-card/account-switcher.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/wallet-card/actions.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/wallet-card/balance-delta.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/wallet-card/search-bar.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/wallet-card/types.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/action-swap.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/wallet-card/account-avatar.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/wallet-card/constants.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/wallet-card/copy-button.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/wallet-card/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-dismiss.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/wallet-card.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "otp-input",
+      "name": "OTP Input",
+      "description": "One-time-code input with a gliding focus ring, digits that roll in per slot, error shake and a success check draw.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/otp-input",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/otp-input",
+      "files": [
+        {
+          "path": "components/motion/otp-input.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/otp-input.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "signup-form",
+      "name": "Sign Up Form",
+      "description": "Composed sign-up form that flags a field only once it is left, then clears the moment it is fixed, with a length-weighted strength meter, password reveal and an animated submit lifecycle.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/signup-form",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/signup-form",
+      "files": [
+        {
+          "path": "components/motion/signup-form.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/checkbox.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/input.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/signup-form.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "bloom-menu",
+      "name": "Bloom Menu",
+      "description": "A button that morphs open into a menu and blooms iris-out from the center, the grid revealing in every direction with radially staggered items.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/bloom-menu",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/bloom-menu",
+      "files": [
+        {
+          "path": "components/motion/bloom-menu.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/bloom-menu.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "feedback-widget",
+      "name": "Feedback Widget",
+      "description": "Corner trigger that morphs open into a feedback popup with message entry and animated sending, success and retry states.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/feedback-widget",
+      "dependencies": [
+        "clsx",
+        "lucide-react",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/feedback-widget",
+      "files": [
+        {
+          "path": "components/motion/feedback-widget.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/button/index.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/base.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/metallic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/button/stateful.tsx",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/previews/blocks/feedback-widget.preview.tsx",
+          "type": "preview"
+        }
+      ]
+    },
+    {
+      "slug": "not-found",
+      "name": "404 / Not Found",
+      "description": "Animated 404 pages in five styles: glitch scramble, magnetic digits, cursor spotlight, a fanning card stack and a typed terminal.",
+      "category": "blocks",
+      "page_url": "https://beui.dev/components/blocks/not-found",
+      "dependencies": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ],
+      "install": "bunx --bun shadcn add @beui/not-found",
+      "files": [
+        {
+          "path": "components/motion/not-found/index.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/not-found/shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/not-found/glitch.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/not-found/magnetic.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/not-found/spotlight.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/not-found/stacked.tsx",
+          "type": "component"
+        },
+        {
+          "path": "components/motion/not-found/terminal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "lib/ease.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/hooks/use-hover-capable.ts",
+          "type": "util"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/magnetic.tsx",
+          "type": "util"
+        },
+        {
+          "path": "components/motion/text-reveal.tsx",
+          "type": "util"
+        }
+      ]
+    }
+  ]
+}
