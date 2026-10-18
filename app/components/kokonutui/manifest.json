@@ -1,0 +1,1430 @@
+{
+  "source": "https://kokonutui.com/r/registry.json",
+  "downloadMethod": "shadcn view @kokonutui/<name>",
+  "itemCount": 80,
+  "components": [
+    {
+      "slug": "ai-prompt",
+      "name": "AI Input Selector",
+      "description": "AI chat input with a model menu, a separate Effort control, file chips you can drop or paste, a / command menu, and Stop while replying.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-prompt.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "textarea",
+        "dropdown-menu"
+      ],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-prompt/components/kokonutui/ai-prompt.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-prompt.tsx"
+        },
+        {
+          "path": "app/components/kokonutui/ai-prompt/hooks/use-auto-resize-textarea.ts",
+          "type": "registry:hook",
+          "upstreamPath": "/hooks/use-auto-resize-textarea.ts"
+        }
+      ]
+    },
+    {
+      "slug": "command-button",
+      "name": "Command Button",
+      "description": "A button with its shortcut drawn as keycaps that sink as you press the real keys.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/command-button.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/command-button/components/kokonutui/command-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/command-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "card-flip",
+      "name": "Flick Card",
+      "description": "A two-sided card you spin with a drag or a flick, with thickness, light and a floor shadow that follow the angle.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/card-flip.json",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/card-flip/components/kokonutui/card-flip.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/card-flip.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "smooth-drawer",
+      "name": "Smooth Drawer",
+      "description": "Checkout bottom sheet on Vaul snap points, peeking at the total and dragging up for details.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/smooth-drawer.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "drawer",
+        "button"
+      ],
+      "files": [
+        {
+          "path": "app/components/kokonutui/smooth-drawer/components/kokonutui/smooth-drawer.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/smooth-drawer.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "halftone-background",
+      "name": "Halftone Background",
+      "description": "Any image, or a lit sphere, printed as a halftone dot screen, with a loupe that looks closer under the cursor, built with React and canvas.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/halftone-background.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/halftone-background/components/kokonutui/halftone-background.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/halftone-background.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "shape-hero",
+      "name": "Shape Hero",
+      "description": "A landing hero where shapes drop in, pile up under the headline and can be grabbed and thrown.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/shape-hero.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/shape-hero/components/kokonutui/shape-hero.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/shape-hero.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-text-loading",
+      "name": "AI Text Loading",
+      "description": "AI thinking text with a soft wave through the letters and words that swap letter by letter.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-text-loading.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-text-loading/components/kokonutui/ai-text-loading.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-text-loading.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "carousel-cards",
+      "name": "Momentum Rail",
+      "description": "A card rail you flick with momentum, snapping on a spring, with scroll-driven cover-flow depth and parallax.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/carousel-cards.json",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/carousel-cards/components/kokonutui/carousel-cards.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/carousel-cards.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "file-upload",
+      "name": "File Upload",
+      "description": "A multi-file upload queue with per-file progress, retry and cancel.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/file-upload.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/file-upload/components/kokonutui/file-upload.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/file-upload.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "action-search-bar",
+      "name": "Command Palette",
+      "description": "\u2318K command palette with nested pages, fuzzy matching and in-row progress for running actions.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/action-search-bar.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/action-search-bar/components/kokonutui/action-search-bar.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/action-search-bar.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-input-search",
+      "name": "AI Input Search",
+      "description": "AI search input with Quick and Research modes and a live trace underneath that stacks each source as it is read, times the run and opens into the full source list. Built with React, Tailwind CSS and Motion.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-input-search.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "textarea"
+      ],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-input-search/components/kokonutui/ai-input-search.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-input-search.tsx"
+        },
+        {
+          "path": "app/components/kokonutui/ai-input-search/hooks/use-auto-resize-textarea.ts",
+          "type": "registry:hook",
+          "upstreamPath": "/hooks/use-auto-resize-textarea.ts"
+        }
+      ]
+    },
+    {
+      "slug": "cradle-text",
+      "name": "Cradle Text",
+      "description": "A headline hung like a Newton's cradle, so a knock on one letter clacks through the word, built with React and pendulum physics.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/cradle-text.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/cradle-text/components/kokonutui/cradle-text.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/cradle-text.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "currency-transfer",
+      "name": "Currency Transfer",
+      "description": "Transfer tracker that converts the amount in place, walks through each step on a filling rail, and ends with a copyable reference. Built with React and Tailwind CSS.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/currency-transfer.json",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/currency-transfer/components/kokonutui/currency-transfer.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/currency-transfer.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "background-paths",
+      "name": "Background Paths",
+      "description": "A ribbon of lines in one color that keeps flowing at any size and parts around the cursor.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/background-paths.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/background-paths/components/kokonutui/background-paths.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/background-paths.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "dot-field",
+      "name": "Dot Field",
+      "description": "A halftone dot membrane that ripples behind a swipe and rings out from a click, built with React and Canvas.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/dot-field.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/dot-field/components/kokonutui/dot-field.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/dot-field.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "flow-field",
+      "name": "Wind",
+      "description": "Streamlines that part around the cursor, swirl in its wake and scatter on click, built with React and Canvas.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/flow-field.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/flow-field/components/kokonutui/flow-field.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/flow-field.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "topo-background",
+      "name": "Topo Background",
+      "description": "A living contour map that drifts, rises under the cursor and ripples on click, built with React and Canvas.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/topo-background.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/topo-background/components/kokonutui/topo-background.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/topo-background.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "drape-background",
+      "name": "Drape Background",
+      "description": "A pleated curtain in a breeze that you can push and pull, built with React, WebGL and a cloth simulation.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/drape-background.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/drape-background/components/kokonutui/drape-background.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/drape-background.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "apple-activity-card",
+      "name": "Apple Activity Card",
+      "description": "Activity rings that draw with a count-up, lap past 100% with a shadowed end cap and dim to focus, built with React and Motion.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/apple-activity-card.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/apple-activity-card/components/kokonutui/apple-activity-card.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/apple-activity-card.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-voice",
+      "name": "AI Voice",
+      "description": "Voice input with a scrolling waveform, then a take you can play back, discard or send.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-voice.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-voice/components/kokonutui/ai-voice.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-voice.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "smooth-tab",
+      "name": "Swipe Tabs",
+      "description": "Tabs with a swipeable panel, a drag-tracked indicator and spring physics.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/smooth-tab.json",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/smooth-tab/components/kokonutui/smooth-tab.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/smooth-tab.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "marking-menu",
+      "name": "Marking Menu",
+      "description": "A radial menu you hold to open or flick to pick blind, built with React and Motion.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/marking-menu.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/marking-menu/components/kokonutui/marking-menu.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/marking-menu.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "team-selector",
+      "name": "Team Selector",
+      "description": "Seat picker with a scrubbable number, generated avatars and an optional rolling price line.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/team-selector.json",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/team-selector/components/kokonutui/team-selector.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/team-selector.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "detent-dial",
+      "name": "Detent Dial",
+      "description": "Rotary knob that clicks from notch to notch and coasts when flicked, built with React and Motion.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/detent-dial.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/detent-dial/components/kokonutui/detent-dial.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/detent-dial.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "liquid-slider",
+      "name": "Liquid Slider",
+      "description": "A vertical slider you fill like a glass, with a sloshing surface and rising bubbles.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/liquid-slider.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/liquid-slider/components/kokonutui/liquid-slider.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/liquid-slider.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "signature-pad",
+      "name": "Signature Pad",
+      "description": "A signature field with a sprung pen tip, speed-weighted ink and SVG output.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/signature-pad.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/signature-pad/components/kokonutui/signature-pad.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/signature-pad.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "switch-button",
+      "name": "Switch Button",
+      "description": "Light and dark theme toggle whose sun folds into a moon while the new theme spreads from the button as a circle.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/switch-button.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/switch-button/components/kokonutui/switch-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/switch-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "pull-cord",
+      "name": "Pull Cord",
+      "description": "A lamp switch you pull on a swinging cord, built with React and a rope simulation.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/pull-cord.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/pull-cord/components/kokonutui/pull-cord.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/pull-cord.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "tear-button",
+      "name": "Tear Button",
+      "description": "A confirm button you tear off like a ticket stub, hole by hole.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/tear-button.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/tear-button/components/kokonutui/tear-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/tear-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "bell-button",
+      "name": "Bell Button",
+      "description": "A subscribe button whose bell swings and rings, with a clapper that really strikes.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/bell-button.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/bell-button/components/kokonutui/bell-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/bell-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "bento-grid",
+      "name": "Widget Grid",
+      "description": "Dashboard widgets you lift, drag and resize on a 6-column grid, with spring physics and full keyboard support.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/bento-grid.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/bento-grid/components/kokonutui/bento-grid.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/bento-grid.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "hold-button",
+      "name": "Hold Button",
+      "description": "Press and hold to confirm, with a fill that drains back on early release and a drawn check on completion.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/hold-button.json",
+      "dependencies": [
+        "class-variance-authority",
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/hold-button/components/kokonutui/hold-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/hold-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "attract-button",
+      "name": "Magnet Button",
+      "description": "A call-to-action button wrapped in a field of iron filings that align to its magnetic field and lean toward your cursor.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/attract-button.json",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/attract-button/components/kokonutui/attract-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/attract-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "gradient-button",
+      "name": "Gradient Button",
+      "description": "Layered gradient button with emerald, purple, and orange variants, a gradient border in light and dark mode, soft inner glow, press feedback, and an optional icon, styled entirely with Tailwind CSS in React.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/gradient-button.json",
+      "dependencies": [],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "app/components/kokonutui/gradient-button/components/kokonutui/gradient-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/gradient-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "v0-button",
+      "name": "V0 Button",
+      "description": "Open in v0 button that sends a component registry JSON to v0.dev for instant editing, built with React, the shadcn Button, and Tailwind CSS.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/v0-button.json",
+      "dependencies": [],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "app/components/kokonutui/v0-button/components/kokonutui/v0-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/v0-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "toolbar",
+      "name": "Tool Dock",
+      "description": "An editor tool dock with a sliding selection plate, shortcut tooltips and flyouts that you can throw to any edge.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/toolbar.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/toolbar/components/kokonutui/toolbar.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-loading",
+      "name": "AI State Loading",
+      "description": "Agent progress as a list of steps with a live log, elapsed time and a summary when done.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-loading.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-loading/components/kokonutui/ai-loading.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-loading.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-tool-approval",
+      "name": "AI Tool Approval",
+      "description": "Approve or deny an agent's tool calls. Destructive calls need a press and hold, and decided calls fold into a trace with their output.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-tool-approval.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-tool-approval/components/kokonutui/ai-tool-approval.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-tool-approval.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-context-meter",
+      "name": "AI Context Meter",
+      "description": "How full the context window is, as a ring in the prompt footer that opens a breakdown by source and compacts when it fills.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-context-meter.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-context-meter/components/kokonutui/ai-context-meter.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-context-meter.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-citations",
+      "name": "AI Inline Citations",
+      "description": "An answer with source chips beside each claim. One preview glides between chips and lights up the sentence it backs.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-citations.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-citations/components/kokonutui/ai-citations.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-citations.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-diff-review",
+      "name": "AI Diff Review",
+      "description": "A coding agent's edits streaming in file by file, then reviewed per file with accept, reject and undo.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-diff-review.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-diff-review/components/kokonutui/ai-diff-review.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-diff-review.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-model-selector",
+      "name": "AI Model Selector",
+      "description": "Pick a model and how hard it thinks. Effort is a detent track that reshapes for each model and keeps your level when you switch.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-model-selector.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-model-selector/components/kokonutui/ai-model-selector.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-model-selector.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "card-stack",
+      "name": "Throw Deck",
+      "description": "A pile of image cards you drag, flick off the top and send under the deck, with arrow keys and a details view.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/card-stack.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/card-stack/components/kokonutui/card-stack.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/card-stack.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "notification-stack",
+      "name": "Notification Stack",
+      "description": "Stacked notifications that fan out on hover and swipe away, built with React and Tailwind CSS.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/notification-stack.json",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/notification-stack/components/kokonutui/notification-stack.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/notification-stack.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "liquid-gauge",
+      "name": "Liquid Gauge",
+      "description": "A usage meter filled with liquid that sloshes, ripples and bubbles, built with React and a wave simulation.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/liquid-gauge.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/liquid-gauge/components/kokonutui/liquid-gauge.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/liquid-gauge.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "activity-terrain",
+      "name": "Activity Terrain",
+      "description": "A contribution heatmap that tilts up into a 3D terrain you can turn, built with React and canvas.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/activity-terrain.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/activity-terrain/components/kokonutui/activity-terrain.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/activity-terrain.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "receipt-printer",
+      "name": "Receipt Printer",
+      "description": "A receipt that prints line by line, then tears off and falls when you pull it, built with React.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/receipt-printer.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/receipt-printer/components/kokonutui/receipt-printer.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/receipt-printer.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "metric-card",
+      "name": "Metric Card",
+      "description": "A revenue KPI card. Scrub a day, drag a range, or pick a segment; the number rolls, the line morphs and the breakdown follows.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/metric-card.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/metric-card/components/kokonutui/metric-card.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/metric-card.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "uptime-card",
+      "name": "Uptime Card",
+      "description": "A status page card with 90 days per service that swell under the cursor, and a day you click opens its incident log.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/uptime-card.json",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/uptime-card/components/kokonutui/uptime-card.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/uptime-card.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "spending-ring",
+      "name": "Spending Ring",
+      "description": "A spending breakdown you spin like a dial; flick the ring and it settles with a category under the marker.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/spending-ring.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/spending-ring/components/kokonutui/spending-ring.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/spending-ring.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "focal-point-picker",
+      "name": "Focal Point Picker",
+      "description": "Set where a photo's subject is and see every crop follow it live. Hover a crop to see what it cuts.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/focal-point-picker.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/focal-point-picker/components/kokonutui/focal-point-picker.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/focal-point-picker.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "photo-straighten",
+      "name": "Photo Straighten",
+      "description": "Level a crooked photo on a ruler you drag or flick. The crop grows to hide the corners, and a grid shows while you adjust.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/photo-straighten.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/photo-straighten/components/kokonutui/photo-straighten.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/photo-straighten.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "clip-trimmer",
+      "name": "Clip Trimmer",
+      "description": "A video trim timeline with a filmstrip, handles that snap to whole seconds and a playhead that loops the kept range.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/clip-trimmer.json",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/clip-trimmer/components/kokonutui/clip-trimmer.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/clip-trimmer.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "synced-transcript",
+      "name": "Synced Transcript",
+      "description": "A transcript that follows the spoken word, lets you click any word to jump there, and waits when you scroll away.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/synced-transcript.json",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/synced-transcript/components/kokonutui/synced-transcript.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/synced-transcript.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "avatar-picker",
+      "name": "Avatar Picker",
+      "description": "Generated avatars from a name, morphing as you type, on a 3D coin you can flick, tap or shuffle.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/avatar-picker.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/avatar-picker/components/kokonutui/avatar-picker.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/avatar-picker.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "wheel-picker",
+      "name": "Wheel Picker",
+      "description": "iOS-style 3D drum picker with flick momentum, built with React and Motion.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/wheel-picker.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/wheel-picker/components/kokonutui/wheel-picker.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/wheel-picker.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "type-writer",
+      "name": "Typing Text",
+      "description": "Typewriter text that makes the odd typo and corrects it, erases by selecting, and blinks its caret only when idle, built with React and Motion.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/type-writer.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/type-writer/components/kokonutui/type-writer.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/type-writer.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "swoosh-text",
+      "name": "Extruded Text",
+      "description": "Zinc 3D extruded text lit by your pointer, with letters that press in like keycaps.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/swoosh-text.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/swoosh-text/components/kokonutui/swoosh-text.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/swoosh-text.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "scroll-index",
+      "name": "Scroll Index",
+      "description": "A section rail for long pages, with a tick per heading that you can hover, click or drag to scrub, built with React.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/scroll-index.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/scroll-index/components/kokonutui/scroll-index.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/scroll-index.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "plucked-text",
+      "name": "Plucked Text",
+      "description": "A headline sitting on a string you can pluck, strum and let ring, built with React and real string physics.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/plucked-text.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/plucked-text/components/kokonutui/plucked-text.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/plucked-text.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "glitch-text",
+      "name": "Glitch Text",
+      "description": "Flat text that cuts into hard-shifted bands with a thin red/cyan split, on idle, hover or text change.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/glitch-text.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/glitch-text/components/kokonutui/glitch-text.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/glitch-text.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "dynamic-text",
+      "name": "Dynamic Text",
+      "description": "Morphing text where shared letters travel, old ones fall and new ones land, with decode and cycle modes.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/dynamic-text.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/dynamic-text/components/kokonutui/dynamic-text.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/dynamic-text.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "particle-button",
+      "name": "Particle Button",
+      "description": "A status button for async actions, with a spinner, a drawn check and a particle burst on success.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/particle-button.json",
+      "dependencies": [
+        "class-variance-authority",
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "app/components/kokonutui/particle-button/components/kokonutui/particle-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/particle-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "liquid-glass-card",
+      "name": "Now Playing",
+      "description": "Music card with a spinning disc you can grab and turn to scrub, built with React and Tailwind CSS.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/liquid-glass-card.json",
+      "dependencies": [
+        "class-variance-authority",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "card",
+        "button"
+      ],
+      "files": [
+        {
+          "path": "app/components/kokonutui/liquid-glass-card/components/kokonutui/liquid-glass-card.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/liquid-glass-card.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "profile-dropdown",
+      "name": "Account Menu",
+      "description": "An account card that morphs into its own menu, with account switching, status, theme and hold-to-sign-out.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/profile-dropdown.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/profile-dropdown/components/kokonutui/profile-dropdown.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/profile-dropdown.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "loader",
+      "name": "Loader",
+      "description": "Animated loading indicator with rotating gradient rings, size variants and customizable title text. Built with React and Tailwind CSS.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/loader.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/loader/components/kokonutui/loader.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/loader.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "slide-text-button",
+      "name": "Slide Text Button",
+      "description": "Animated link button with a vertical text slide on hover and default and ghost variants, built with React, Next.js Link, and Tailwind CSS.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/slide-text-button.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/slide-text-button/components/kokonutui/slide-text-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/slide-text-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "morphic-navbar",
+      "name": "Split Nav",
+      "description": "Navigation bar that splits around the active link, with drag-to-scrub, flick projection and an optional compact fold.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/morphic-navbar.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/morphic-navbar/components/kokonutui/morphic-navbar.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/morphic-navbar.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "status-island",
+      "name": "Status Island",
+      "description": "A pill that reports background work, reshaping as tasks change and opening into a list of everything in flight.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/status-island.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/status-island/components/kokonutui/status-island.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/status-island.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "morph-popover",
+      "name": "Morph Popover",
+      "description": "A button that grows into the form it opens, with its label sliding up to become the title, then shrinks into a confirmation.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/morph-popover.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/morph-popover/components/kokonutui/morph-popover.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/morph-popover.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "lightbox-grid",
+      "name": "Lightbox Grid",
+      "description": "A photo grid whose thumbnails grow into a full view and fly back to their slot when you drag them down.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/lightbox-grid.json",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/lightbox-grid/components/kokonutui/lightbox-grid.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/lightbox-grid.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "spoiler-text",
+      "name": "Spoiler Text",
+      "description": "Inline text hidden under drifting specks, like a chat spoiler. A click blows the specks away from the point you touched.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/spoiler-text.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/spoiler-text/components/kokonutui/spoiler-text.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/spoiler-text.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "stack-panel",
+      "name": "Stack Panel",
+      "description": "A panel that drills into pages like settings on a phone. The tapped row's label flies up into the title, and a swipe right takes you back.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/stack-panel.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/stack-panel/components/kokonutui/stack-panel.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/stack-panel.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "ai-autocomplete",
+      "name": "AI Autocomplete",
+      "description": "A text box that suggests how your sentence ends in grey after the caret. Tab takes it all, the right arrow takes one word, and typing the same letters keeps it.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/ai-autocomplete.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/ai-autocomplete/components/kokonutui/ai-autocomplete.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/ai-autocomplete.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "undo-button",
+      "name": "Undo Button",
+      "description": "An action button that gives you a few seconds to take it back, with the time left drawn around its own edge.",
+      "type": "registry:component",
+      "source": "https://kokonutui.com/r/undo-button.json",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/undo-button/components/kokonutui/undo-button.tsx",
+          "type": "registry:component",
+          "upstreamPath": "/components/kokonutui/undo-button.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "use-auto-resize-textarea",
+      "name": "Use Auto Resize Textarea",
+      "description": "React hook that auto-resizes a textarea to fit its content between a min and max height.",
+      "type": "registry:hook",
+      "source": "https://kokonutui.com/r/use-auto-resize-textarea.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/use-auto-resize-textarea/hooks/use-auto-resize-textarea.ts",
+          "type": "registry:hook",
+          "upstreamPath": "/hooks/use-auto-resize-textarea.ts"
+        }
+      ]
+    },
+    {
+      "slug": "use-click-outside",
+      "name": "Use Click Outside",
+      "description": "React hook that runs a callback when the user clicks outside the referenced element.",
+      "type": "registry:hook",
+      "source": "https://kokonutui.com/r/use-click-outside.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/use-click-outside/hooks/use-click-outside.ts",
+          "type": "registry:hook",
+          "upstreamPath": "/hooks/use-click-outside.ts"
+        }
+      ]
+    },
+    {
+      "slug": "use-copy-to-clipboard",
+      "name": "Use Copy To Clipboard",
+      "description": "React hook that copies text to the clipboard and exposes a copied state with a reset timeout.",
+      "type": "registry:hook",
+      "source": "https://kokonutui.com/r/use-copy-to-clipboard.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/use-copy-to-clipboard/hooks/use-copy-to-clipboard.ts",
+          "type": "registry:hook",
+          "upstreamPath": "/hooks/use-copy-to-clipboard.ts"
+        }
+      ]
+    },
+    {
+      "slug": "use-mobile",
+      "name": "Use Mobile",
+      "description": "React hook that reports whether the viewport is below the 768px mobile breakpoint.",
+      "type": "registry:hook",
+      "source": "https://kokonutui.com/r/use-mobile.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/use-mobile/hooks/use-mobile.ts",
+          "type": "registry:hook",
+          "upstreamPath": "/hooks/use-mobile.ts"
+        }
+      ]
+    },
+    {
+      "slug": "utils",
+      "name": "Utils",
+      "description": "The cn utility for merging Tailwind CSS classes, built on clsx and tailwind-merge.",
+      "type": "registry:lib",
+      "source": "https://kokonutui.com/r/utils.json",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "app/components/kokonutui/utils/lib/utils.ts",
+          "type": "registry:lib",
+          "upstreamPath": "/lib/utils.ts"
+        }
+      ]
+    }
+  ]
+}
