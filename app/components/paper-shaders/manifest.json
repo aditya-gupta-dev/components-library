@@ -1,0 +1,368 @@
+{
+  "source": "https://github.com/paper-design/shaders",
+  "documentation": "https://shaders.paper.design/",
+  "version": "0.0.81",
+  "commit": "43cd68db79fa0b1759f72ffc941b3238e2a3954c",
+  "downloadMethod": "Official Git source snapshot; React entries, presets, GLSL, shared runtime, and registry examples",
+  "itemCount": 7,
+  "dependencies": {
+    "react": "^18 || ^19"
+  },
+  "upstreamPackages": {
+    "@paper-design/shaders": "0.0.81",
+    "@paper-design/shaders-react": "0.0.81"
+  },
+  "adaptations": [
+    "Relative imports point to the local shared runtime; .js import suffixes removed for Next.js TypeScript resolution.",
+    "Client directives added to React component and example entry points.",
+    "Halftone CMYK example uses local HalftoneCmykProps instead of upstream package barrel type.",
+    "Core index.ts is a generated barrel limited to selected shaders and shared utilities."
+  ],
+  "components": [
+    {
+      "slug": "image-dithering",
+      "name": "ImageDithering",
+      "category": "image-filters",
+      "source": "https://shaders.paper.design/image-dithering",
+      "entry": "app/components/paper-shaders/image-dithering/image-dithering.tsx",
+      "example": "app/components/paper-shaders/image-dithering/image-dithering-example.tsx",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "path": "app/components/paper-shaders/image-dithering/image-dithering.tsx",
+          "upstreamPath": "packages/shaders-react/src/shaders/image-dithering.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/shaders/image-dithering.tsx",
+          "upstreamSha256": "caefd94c0eba0348caae064717c11d64783278f0b6dfe2e70a16978254905dd3",
+          "modified": true
+        },
+        {
+          "path": "app/components/paper-shaders/image-dithering/image-dithering-example.tsx",
+          "upstreamPath": "docs/registry/image-dithering-example.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/docs/registry/image-dithering-example.tsx",
+          "upstreamSha256": "0715f96cef025047806475ec23fe511702aed753567458292141fa927cf1a14f",
+          "modified": true
+        }
+      ]
+    },
+    {
+      "slug": "halftone-dots",
+      "name": "HalftoneDots",
+      "category": "image-filters",
+      "source": "https://shaders.paper.design/halftone-dots",
+      "entry": "app/components/paper-shaders/halftone-dots/halftone-dots.tsx",
+      "example": "app/components/paper-shaders/halftone-dots/halftone-dots-example.tsx",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "path": "app/components/paper-shaders/halftone-dots/halftone-dots.tsx",
+          "upstreamPath": "packages/shaders-react/src/shaders/halftone-dots.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/shaders/halftone-dots.tsx",
+          "upstreamSha256": "9248004edf800a4c40f18fa7215b5d6b753a9516976f64ad3b65ed0e3fcd6b39",
+          "modified": true
+        },
+        {
+          "path": "app/components/paper-shaders/halftone-dots/halftone-dots-example.tsx",
+          "upstreamPath": "docs/registry/halftone-dots-example.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/docs/registry/halftone-dots-example.tsx",
+          "upstreamSha256": "f7f92c47def901be9d05dd96628b219bebae849b5fe82476473bb687e2747abf",
+          "modified": true
+        }
+      ]
+    },
+    {
+      "slug": "halftone-cmyk",
+      "name": "HalftoneCmyk",
+      "category": "image-filters",
+      "source": "https://shaders.paper.design/halftone-cmyk",
+      "entry": "app/components/paper-shaders/halftone-cmyk/halftone-cmyk.tsx",
+      "example": "app/components/paper-shaders/halftone-cmyk/halftone-cmyk-example.tsx",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "path": "app/components/paper-shaders/halftone-cmyk/halftone-cmyk.tsx",
+          "upstreamPath": "packages/shaders-react/src/shaders/halftone-cmyk.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/shaders/halftone-cmyk.tsx",
+          "upstreamSha256": "8770c9b098ee2637ce0cb522f0397db4bdd320a973d224d94ff11b0edf700a93",
+          "modified": true
+        },
+        {
+          "path": "app/components/paper-shaders/halftone-cmyk/halftone-cmyk-example.tsx",
+          "upstreamPath": "docs/registry/halftone-cmyk-example.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/docs/registry/halftone-cmyk-example.tsx",
+          "upstreamSha256": "827651291d14ffa06dca9bba40429ad38479e61069192718239d08d59bc84a86",
+          "modified": true
+        }
+      ]
+    },
+    {
+      "slug": "heatmap",
+      "name": "Heatmap",
+      "category": "logo-animations",
+      "source": "https://shaders.paper.design/heatmap",
+      "entry": "app/components/paper-shaders/heatmap/heatmap.tsx",
+      "example": "app/components/paper-shaders/heatmap/heatmap-example.tsx",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "path": "app/components/paper-shaders/heatmap/heatmap.tsx",
+          "upstreamPath": "packages/shaders-react/src/shaders/heatmap.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/shaders/heatmap.tsx",
+          "upstreamSha256": "728d3cc0670f811cfdb3b5486f8d0d978ba7b36f58e0cd8d7f318b4aa1a23a39",
+          "modified": true
+        },
+        {
+          "path": "app/components/paper-shaders/heatmap/heatmap-example.tsx",
+          "upstreamPath": "docs/registry/heatmap-example.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/docs/registry/heatmap-example.tsx",
+          "upstreamSha256": "ccc74d076048e8537e97c2957e9b3fb0d227561cbd4b4f03bef3eba3a391589b",
+          "modified": true
+        }
+      ]
+    },
+    {
+      "slug": "liquid-metal",
+      "name": "LiquidMetal",
+      "category": "logo-animations",
+      "source": "https://shaders.paper.design/liquid-metal",
+      "entry": "app/components/paper-shaders/liquid-metal/liquid-metal.tsx",
+      "example": "app/components/paper-shaders/liquid-metal/liquid-metal-example.tsx",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "path": "app/components/paper-shaders/liquid-metal/liquid-metal.tsx",
+          "upstreamPath": "packages/shaders-react/src/shaders/liquid-metal.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/shaders/liquid-metal.tsx",
+          "upstreamSha256": "8917927d1b5c1de4eed9dc25c3f3217e8473222ceef2f5fe6eb8a25c2d238988",
+          "modified": true
+        },
+        {
+          "path": "app/components/paper-shaders/liquid-metal/liquid-metal-example.tsx",
+          "upstreamPath": "docs/registry/liquid-metal-example.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/docs/registry/liquid-metal-example.tsx",
+          "upstreamSha256": "161b269f4a6354b4ad14b46ee989812ebadb63360b44ce6dff69c058a0e52ba6",
+          "modified": true
+        }
+      ]
+    },
+    {
+      "slug": "grain-gradient",
+      "name": "GrainGradient",
+      "category": "effects",
+      "source": "https://shaders.paper.design/grain-gradient",
+      "entry": "app/components/paper-shaders/grain-gradient/grain-gradient.tsx",
+      "example": "app/components/paper-shaders/grain-gradient/grain-gradient-example.tsx",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "path": "app/components/paper-shaders/grain-gradient/grain-gradient.tsx",
+          "upstreamPath": "packages/shaders-react/src/shaders/grain-gradient.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/shaders/grain-gradient.tsx",
+          "upstreamSha256": "2effd86f3ea6ab8825b30973a50038455982bed0a62753b9947a2d6b8974b3a9",
+          "modified": true
+        },
+        {
+          "path": "app/components/paper-shaders/grain-gradient/grain-gradient-example.tsx",
+          "upstreamPath": "docs/registry/grain-gradient-example.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/docs/registry/grain-gradient-example.tsx",
+          "upstreamSha256": "969a62ec9e19da8f9bb3525394299bb9f4838e86bd3e623cfb6effe65c5b0a4f",
+          "modified": true
+        }
+      ]
+    },
+    {
+      "slug": "mesh-gradient",
+      "name": "MeshGradient",
+      "category": "effects",
+      "source": "https://shaders.paper.design/mesh-gradient",
+      "entry": "app/components/paper-shaders/mesh-gradient/mesh-gradient.tsx",
+      "example": "app/components/paper-shaders/mesh-gradient/mesh-gradient-example.tsx",
+      "dependencies": [
+        "react"
+      ],
+      "files": [
+        {
+          "path": "app/components/paper-shaders/mesh-gradient/mesh-gradient.tsx",
+          "upstreamPath": "packages/shaders-react/src/shaders/mesh-gradient.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/shaders/mesh-gradient.tsx",
+          "upstreamSha256": "84510b61595d9ecbea49fe713d716f8292b58feb6c8ce2400abf4c574ff07a3f",
+          "modified": true
+        },
+        {
+          "path": "app/components/paper-shaders/mesh-gradient/mesh-gradient-example.tsx",
+          "upstreamPath": "docs/registry/mesh-gradient-example.tsx",
+          "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/docs/registry/mesh-gradient-example.tsx",
+          "upstreamSha256": "09b9edb0b4eb847e78970738e5996b0720650c42d86e23bd5be32b9c4346b8a5",
+          "modified": true
+        }
+      ]
+    }
+  ],
+  "sharedFiles": [
+    {
+      "path": "app/components/paper-shaders/_shared/core/shaders/image-dithering.ts",
+      "upstreamPath": "packages/shaders/src/shaders/image-dithering.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shaders/image-dithering.ts",
+      "upstreamSha256": "e088485879381a79abd3653b764a5f37073f9b06477da6bf9832aa627a0da201",
+      "modified": true
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/shader-mount.ts",
+      "upstreamPath": "packages/shaders/src/shader-mount.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shader-mount.ts",
+      "upstreamSha256": "bc5b6dbed094e71dc9d3132d6913c649862f3169dec16b457e11c9ce4d3a1432",
+      "modified": true
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/vertex-shader.ts",
+      "upstreamPath": "packages/shaders/src/vertex-shader.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/vertex-shader.ts",
+      "upstreamSha256": "b2f8121916f21674ccb53174efa88f19e53287893035333bc65f6228a4bfd136",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/shader-sizing.ts",
+      "upstreamPath": "packages/shaders/src/shader-sizing.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shader-sizing.ts",
+      "upstreamSha256": "b4579aa325c6e662b271bed812415e5aed7cf8ff066a7940045f422458b7abeb",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/shader-utils.ts",
+      "upstreamPath": "packages/shaders/src/shader-utils.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shader-utils.ts",
+      "upstreamSha256": "5805b80c74323b0a8fce8c8c3628b17372014f7417d0c7de3346fa532c6c903a",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/shaders/halftone-dots.ts",
+      "upstreamPath": "packages/shaders/src/shaders/halftone-dots.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shaders/halftone-dots.ts",
+      "upstreamSha256": "dbad07deb49915256ea7939eb6c897955d8667dc44fe4605afad18bcf9231adb",
+      "modified": true
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/shaders/halftone-cmyk.ts",
+      "upstreamPath": "packages/shaders/src/shaders/halftone-cmyk.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shaders/halftone-cmyk.ts",
+      "upstreamSha256": "3da41e42d9c3bfa515bbea0a107563078168b0f99726f29b826e6dca591148fd",
+      "modified": true
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/shaders/heatmap.ts",
+      "upstreamPath": "packages/shaders/src/shaders/heatmap.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shaders/heatmap.ts",
+      "upstreamSha256": "3b25944245a506b750335b4007bc66af49c51cee55e767757aea2b4ee7e1e55f",
+      "modified": true
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/types.ts",
+      "upstreamPath": "packages/shaders/src/types.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/types.ts",
+      "upstreamSha256": "7d726479d24cdccd0a77a47b7203a4dd231ae8c97035c12c568dc6966ddb6a64",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/shaders/liquid-metal.ts",
+      "upstreamPath": "packages/shaders/src/shaders/liquid-metal.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shaders/liquid-metal.ts",
+      "upstreamSha256": "626419e92474cacbfb4f77bc8be6a80414bd2a10bf3e4da4f05ab8d591e64e4d",
+      "modified": true
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/shaders/grain-gradient.ts",
+      "upstreamPath": "packages/shaders/src/shaders/grain-gradient.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shaders/grain-gradient.ts",
+      "upstreamSha256": "5d0064f32fb2b53985667e69e39742d6781efcecbe12e299115b7d1c1de11dab",
+      "modified": true
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/shaders/mesh-gradient.ts",
+      "upstreamPath": "packages/shaders/src/shaders/mesh-gradient.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/shaders/mesh-gradient.ts",
+      "upstreamSha256": "4745a5f7198947a6ad22e54ab8d9b61aa7d68a51082120e744b5dc1b33b99e1e",
+      "modified": true
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/get-shader-color-from-string.ts",
+      "upstreamPath": "packages/shaders/src/get-shader-color-from-string.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/get-shader-color-from-string.ts",
+      "upstreamSha256": "20fdc1a154ce9cc7d2d5b369150954e10b4845a0c5a764b814e2561e803deedd",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/get-shader-noise-texture.ts",
+      "upstreamPath": "packages/shaders/src/get-shader-noise-texture.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/get-shader-noise-texture.ts",
+      "upstreamSha256": "c5d36911326153219bd450def1e5e84250a37968d79b29d4d7b11eff7bf5ecf9",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/core/empty-pixel.ts",
+      "upstreamPath": "packages/shaders/src/empty-pixel.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders/src/empty-pixel.ts",
+      "upstreamSha256": "53be51a065786523fdda5c76e9d7323d299b4400154e2648c5b9dfb726c99ea1",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/react/use-merge-refs.ts",
+      "upstreamPath": "packages/shaders-react/src/use-merge-refs.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/use-merge-refs.ts",
+      "upstreamSha256": "363a8a6691f89dbf78cd184203cc1ca05ea1ac692f7fd4e39c5ffd58b80a77f3",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/react/transparent-pixel.ts",
+      "upstreamPath": "packages/shaders-react/src/transparent-pixel.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/transparent-pixel.ts",
+      "upstreamSha256": "0b66df4f3d5d564ae6be4fabb2adee1fed410f4f34a5caea041925a2740a890f",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/react/suspend.tsx",
+      "upstreamPath": "packages/shaders-react/src/suspend.tsx",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/suspend.tsx",
+      "upstreamSha256": "fe3772bb1205aa7305f6789ca1b2c01869da7ff5aa672b24a40930112c19d5eb",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/react/shader-mount.tsx",
+      "upstreamPath": "packages/shaders-react/src/shader-mount.tsx",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/shader-mount.tsx",
+      "upstreamSha256": "804c799afea956a72f221ab1df6f78bf9a6ee35e0e0533e637c7b805ebbe2226",
+      "modified": true
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/react/set-min-image-size.tsx",
+      "upstreamPath": "packages/shaders-react/src/set-min-image-size.tsx",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/set-min-image-size.tsx",
+      "upstreamSha256": "2a828df5a90ae3eb60eda675a86c07071e4f7a86e6592e97b323a0548f70c748",
+      "modified": false
+    },
+    {
+      "path": "app/components/paper-shaders/_shared/react/color-props-are-equal.ts",
+      "upstreamPath": "packages/shaders-react/src/color-props-are-equal.ts",
+      "source": "https://github.com/paper-design/shaders/blob/43cd68db79fa0b1759f72ffc941b3238e2a3954c/packages/shaders-react/src/color-props-are-equal.ts",
+      "upstreamSha256": "5a77a6b3ae488b15b2e41b5a85838494d69820aacc26f8d74eac670c772587b8",
+      "modified": false
+    }
+  ],
+  "generatedFiles": [
+    "app/components/paper-shaders/_shared/core/index.ts"
+  ],
+  "licenseFiles": [
+    "app/components/paper-shaders/LICENSE",
+    "app/components/paper-shaders/NOTICE"
+  ]
+}

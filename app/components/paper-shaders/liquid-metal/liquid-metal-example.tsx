@@ -1,0 +1,7 @@
+'use client';
+
+import { LiquidMetal, LiquidMetalProps } from './liquid-metal';
+
+export function LiquidMetalExample(props: LiquidMetalProps) {
+  return <LiquidMetal style={{ position: 'fixed', width: '100%', height: '100%' }} {...props} />;
+}
